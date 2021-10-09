@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1846" height="875" viewBox="0 0 1846 875">
+  <defs>
+    <filter id="old_school" x="589" y="474" width="1257" height="401" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-color="#ff4d2c" flood-opacity="0.851"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="let_s_go" x="0" y="0" width="1388" height="457" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-color="#ff4d2c" flood-opacity="0.851"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="t1f" transform="translate(182 -342)">
+    <g transform="matrix(1, 0, 0, 1, -182, 342)" filter="url(#old_school)">
+      <text id="old_school-2" data-name="old school" transform="translate(595 474)" fill="#fff200" font-size="230" font-family="ConeriaScriptDemo, Coneria Script Demo" letter-spacing="0.064em"><tspan x="0" y="251">Old School</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -182, 342)" filter="url(#let_s_go)">
+      <text id="let_s_go-2" data-name="let&apos;s go" transform="translate(6)" fill="#fff200" font-size="230" font-family="ConeriaScriptDemo, Coneria Script Demo" letter-spacing="0.064em"><tspan x="0" y="251">Let&apos;s Go</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+
+
+
+turn  mov to mp4 with adobe ME
+optimize mp4 like this =>
+
+
+ffmpeg -i S1-me.mp4 -movflags faststart -vcodec libx264 -crf 20 -g 1 -pix_fmt yuv420p output3.mp4
